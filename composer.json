@@ -1,5 +1,5 @@
 {
-  "name": "voov/billingo-api-connector",
+  "name": "akosphp/billingo-api-connector",
   "description": "Billingo API Connector",
   "minimum-stability": "dev",
   "license": "MIT",
@@ -7,6 +7,10 @@
     {
       "name": "Daniel Fekete",
       "email": "daniel.fekete@voov.hu"
+    },
+	{
+      "name": "Kiss Ákos",
+      "email": "akos.kiss@tudaspiac.hu"
     }
   ],
   "require": {
