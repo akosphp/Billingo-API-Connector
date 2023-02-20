@@ -240,7 +240,7 @@ class Request implements \Billingo\API\Connector\Contracts\Request
             'jti' => md5($this->config['public_key'].$time),
         ];
 
-        return JWT::encode($signatureData, $this->config['private_key']);
+        return JWT::encode($signatureData, $this->config['private_key'], 'HS256');
     }
 
     /**
